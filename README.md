@@ -32,6 +32,3 @@ Every project has CI that runs the tests, plus an end-to-end run of the pipeline
 - Lakehouse table formats (Delta Lake, Apache Iceberg)
 - Cloud data platforms
 
-### 📊 GitHub stats
-
-![Kajal's GitHub stats](https://github-readme-stats.vercel.app/api?username=kaajjalchoudhary&show_icons=true&hide_border=true)
