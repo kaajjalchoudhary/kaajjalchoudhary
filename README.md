@@ -17,6 +17,15 @@ streaming and analytics engineering.
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 
+### 🧰 Open source
+
+**[datasniff](https://github.com/kaajjalchoudhary/datasniff)**: know your data file before you load it. One command profiles any CSV, Parquet or JSON file, flags data quality problems (duplicates, nulls, PII, dirty values) and generates a dbt `schema.yml` with tests plus `CREATE TABLE` DDL for Postgres, BigQuery, Snowflake or DuckDB. Also available as a GitHub Action.
+
+```bash
+pip install git+https://github.com/kaajjalchoudhary/datasniff.git
+datasniff orders.csv
+```
+
 ### 🚀 Featured projects
 
 | Project | What it does | Stack |
