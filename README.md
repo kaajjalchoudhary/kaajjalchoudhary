@@ -1,19 +1,32 @@
 ## Hi, I'm Kajal 👋
 
-### Data Engineer · Data platforms for AI and analytics
+### AI & Data Engineer · 9+ years in banking, retail and e-commerce data
 
-I build the data layer that AI systems and analytics depend on: ingestion, CDC and streaming, lakehouse
-tables, and the RAG pipelines that turn documents into a vector index an LLM can trust. My focus is the
-unglamorous part that decides whether a model answers well: **clean, deduplicated, PII-safe, incrementally
-updated data, with tests that prove it.**
+I build the data layer that AI systems and analytics depend on, and the GenAI on top of it: ETL/ELT pipelines
+on Databricks, PySpark and dbt, RAG over enterprise data, and AI agents with tool calling and MCP. My focus is
+the part that decides whether a model answers well: **clean, deduplicated, PII-safe, incrementally updated
+data, with tests that prove it.**
+
+📍 Duisburg, Germany · authorised to work in the EU · 🔗 [LinkedIn](https://www.linkedin.com/in/kaajal-choudhary)
 
 ```text
-batch · streaming · CDC · lakehouse (Delta, Iceberg) · dbt · Airflow · RAG ingestion · embeddings · data quality
+GenAI · RAG · AI agents · MCP · LLM APIs · Databricks · PySpark · dbt · SQL · Python · GCP · AWS · Azure · Snowflake
 ```
+
+### 💼 Experience
+
+| Period | Role | Where | Highlights |
+|---|---|---|---|
+| 2025 – now | Senior Data Analyst, Data Engineering, BI & AI | DVK Software · HSBC credit risk project | End-to-end Databricks/PySpark/dbt ETL on GCP into risk data marts; RAG over risk data and definitions; MCP-enabled AI agents for validation, reconciliation and pipeline docs; Claude Code for AI-assisted development and review |
+| 2023 – 2025 | Senior Data Analyst | TASC Outsourcing · Emirates NBD (retail banking), Dubai | Retail banking ETL pipelines and data models; segmentation and A/B testing; source-to-target mappings and data quality validation on Oracle, SQL Server and SAP |
+| 2022 – 2023 | ETL & Data Engineering Analyst | Barclays Global Service Centre, Noida | SAS-to-Hadoop migration for risk reporting over 100TB+ data; automated ETL in Python and SAS (USD 8M+ business value, 40% faster SQL); Basel III/IV and IFRS-9 specs |
+| 2017 – 2022 | Senior Data Analyst / Analytics Engineer | Ahaka Solutions · Adidas (retail), MENA | Regression models for customer and campaign performance; automated retail data pipelines; GA4, Google Ads, Adobe Analytics |
+
+🎓 B.Tech, Computer Science & Engineering, Manav Rachna International University · 🗣️ English (C1), Hindi (native), German (B1), French (A2)
 
 ### 🏗️ How my projects fit together
 
-Taken together, my repositories cover the path from a source system to an LLM-ready index or a BI mart.
+The repositories below are my open-source work. Taken together, they cover the path from a source system to an LLM-ready index or a BI mart.
 Every stage below is implemented and tested in one of the projects further down.
 
 ```mermaid
@@ -56,8 +69,20 @@ flowchart LR
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat&logo=databricks&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
+![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat&logo=snowflake&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
 
-**AI / ML data:**
+**GenAI / ML:**
+![MCP](https://img.shields.io/badge/MCP-111111?style=flat)
+![AI Agents](https://img.shields.io/badge/AI%20Agents-5A32A3?style=flat)
+![Claude](https://img.shields.io/badge/Claude%20API-D97757?style=flat&logo=anthropic&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI%20API-412991?style=flat&logo=openai&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
 ![RAG](https://img.shields.io/badge/RAG-6E40C9?style=flat)
 ![Embeddings](https://img.shields.io/badge/Embeddings-8250DF?style=flat)
 ![Vector Search](https://img.shields.io/badge/Vector%20Search-0E8A16?style=flat)
@@ -105,3 +130,7 @@ Every project has CI that runs the tests plus an end-to-end run of the pipeline 
 - Data quality for LLM training and fine-tuning data (dedup, PII, contamination checks)
 - Streaming into Iceberg (Kafka to Iceberg with Flink or Spark)
 - Running these pipelines on managed cloud platforms (object storage, managed Spark and Kafka)
+
+### 🤝 Let's connect
+
+Open to AI and data engineering conversations in Germany and the EU: [LinkedIn](https://www.linkedin.com/in/kaajal-choudhary)
